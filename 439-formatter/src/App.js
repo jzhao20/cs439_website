@@ -23,10 +23,10 @@ class App extends React.Component{
       formData.append( 
         'file',this.selectedFile
       ); 
-      axios.post("http://localhost:8000", formData, {})
-      .then(res=>{
-      console.log(res.statusText)
-      }) 
+      // axios.post("http://localhost:8000", formData, {})
+      // .then(res=>{
+      // console.log(res.statusText)
+      // }) 
   }
   fileData (){
     if(this.state.selectedFile){
